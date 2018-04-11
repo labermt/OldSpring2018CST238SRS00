@@ -9,19 +9,17 @@
     <EditText
         android:id="@+id/editText"
         android:layout_width="0dp"
-        android:layout_height="25dp"
+        android:layout_height="77dp"
         android:layout_marginLeft="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/edit_message"
-        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="@string/begining_message"
         app:layout_constraintEnd_toStartOf="@+id/button"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:text="Text" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button"
